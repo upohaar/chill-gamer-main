@@ -1,17 +1,19 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDRTay6_T1H9CQ4X3JX2rAEu5cYXdmRXdo",
-  authDomain: "chill-gamer-a067b.firebaseapp.com",
-  projectId: "chill-gamer-a067b",
-  storageBucket: "chill-gamer-a067b.firebasestorage.app",
-  messagingSenderId: "660637215819",
-  appId: "1:660637215819:web:5077f2fe76bc6956fe31ce"
+  apiKey: "AIzaSyBP7A2bSsdsco0pRfPXmfJ8ecUUMIAHn3I",
+  authDomain: "chill-gamer-main.firebaseapp.com",
+  projectId: "chill-gamer-main",
+  storageBucket: "chill-gamer-main.firebasestorage.app",
+  messagingSenderId: "689504282200",
+  appId: "1:689504282200:web:9e85e5e8673e51ea498c2d"
 };
 
 // Initialize Firebase
