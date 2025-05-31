@@ -5,8 +5,6 @@ import streamer2 from "../../assets/Images/streamers02.png"
 import streamer3 from "../../assets/Images/streamers03.png"
 import streamer4 from "../../assets/Images/streamers04.png"
 import { AuthContext } from "../../AuthProvider/AuthProvider";
-
-
 const TopStreamers = () => {
   const {theme}= useContext(AuthContext)
   return (
@@ -18,7 +16,6 @@ const TopStreamers = () => {
         <h2 className={`text-center uppercase font-bold md:text-4xl text-2xl ${ theme=="light"?"text-black":" text-white"}`}>
           top rated streamers
         </h2>
-
         <div className="w-11/12 mx-auto py-7">
           <div className="carousel w-full">
             <div id="item1" className="carousel-item w-full">
