@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import girl from "../../assets/Images/AboutUs.jpg";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
-
 const AboutUs = () => {
   const {theme}= useContext(AuthContext)
   return (
