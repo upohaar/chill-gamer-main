@@ -19,6 +19,7 @@ const MyReviewTable = ({ review, index, setReviews, reviews }) => {
         fetch(`https://chill-gamer-server.onrender.com/review/${id}`, {
           method: "DELETE"
         })
+        
           .then((res) => res.json())
           .then((data) => {
             console.log(data);
