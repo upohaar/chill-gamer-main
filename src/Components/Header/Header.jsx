@@ -5,10 +5,9 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { Tooltip } from "react-tooltip";
 import { FaAffiliatetheme } from "react-icons/fa";
 import { CiLight } from "react-icons/ci";
-
 const Header = () => {
   const { user, logout } = useContext(AuthContext);
-  const{theme,toggleTheme}=useContext(AuthContext)
+  const{ theme,toggleTheme }=useContext(AuthContext)
   return (
     <div className="bg-[#272a33]">
       <div className="navbar w-11/12 mx-auto">
