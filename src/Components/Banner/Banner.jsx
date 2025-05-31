@@ -1,7 +1,6 @@
 import Banner1 from "../../assets/Images/Banner2.png";
 import Banner2 from "../../assets/Images/Banner6.jpg";
 import Banner3 from "../../assets/Images/banner4.jpg";
-
 const Banner = () => {
   return (
     <div className="z-0 ">
