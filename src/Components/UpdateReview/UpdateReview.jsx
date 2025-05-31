@@ -2,8 +2,6 @@ import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { useLoaderData } from "react-router-dom";
 import Swal from "sweetalert2";
-
-
 const UpdateReview = () => {
     const {user}=useContext(AuthContext)
     const reviews=useLoaderData();
