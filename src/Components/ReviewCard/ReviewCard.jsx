@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 const ReviewCard = ({review}) => {
     const{_id, photo,name,description,year,genres,rating,email,userName}=review
   return (
@@ -23,5 +22,4 @@ const ReviewCard = ({review}) => {
     </div>
   );
 };
-
 export default ReviewCard;
