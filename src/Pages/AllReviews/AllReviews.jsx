@@ -2,7 +2,6 @@ import { useLoaderData } from "react-router-dom";
 import AllReviewCard from "../../Components/AllReviewCard/AllReviewCard";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
-
 const AllReviews = () => {
   const data = useLoaderData();
   const { theme } = useContext(AuthContext);
