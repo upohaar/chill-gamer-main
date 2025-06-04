@@ -2,8 +2,7 @@
 
 const WatchListTable = ({reviews,index}) => {
     const{ review,email,userName}=reviews
-    return (
-      
+    return (     
              <tbody>
             {/* row 1 */}
             <tr>
