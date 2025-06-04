@@ -7,7 +7,6 @@ const AddReview = () => {
 
     const handelAddReview = e =>{
         e.preventDefault()
-
        const form = e.target;
        const photo=form.photo.value;
        const name = form. name.value;
