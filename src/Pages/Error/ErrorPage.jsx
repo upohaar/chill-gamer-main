@@ -1,8 +1,6 @@
 
 import Lottie from "lottie-react";
 import groovyWalkAnimation from "../../assets/Images/fourOfour.json";
-
-
 const ErrorPage = () => {
     return (
        
